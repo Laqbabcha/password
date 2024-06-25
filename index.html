@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="stl.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <input type="password" id="password" placeholder="Password">
+            <p id="message">Your Password is <span id="str"></span></p>
+           
+            <div id="requirements">
+                <p class="condition" id="length">At least 8 characters</p>
+                <p class="condition" id="number">At least 1 number</p>
+                <p class="condition" id="special">At least 3 special characters</p>
+                <p class="condition" id="uppercase">At least 1 uppercase letter</p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
